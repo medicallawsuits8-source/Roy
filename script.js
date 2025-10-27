@@ -1,4 +1,4 @@
-const SHEET_URL = "https://script.google.com/macros/s/PASTE_YOUR_WEBAPP_URL_HERE/exec";
+const SHEET_URL = "https://script.google.com/macros/s/AKfycbzZWvgslXIMNbziGKpsvsJb-bKu0hUTSP6TfA02YTElg9M4xmXesHNocjpmhE1e274aiA/exec";
 
 async function addData() {
   const data = {
