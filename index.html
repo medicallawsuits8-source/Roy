@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hospital Reception DB</title>
+  <style>
+    body { font-family: Arial; padding: 20px; }
+    input, button { margin: 5px; padding: 8px; }
+    table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+    td, th { border: 1px solid #ccc; padding: 8px; text-align: left; }
+  </style>
+</head>
+<body>
+  <h2>🏥 Hospital Reception Database</h2>
+
+  <input id="name" placeholder="Name">
+  <input id="age" placeholder="Age">
+  <input id="gender" placeholder="Gender">
+  <input id="doctor" placeholder="Doctor">
+  <input id="time" placeholder="Time">
+  <input id="status" placeholder="Status">
+  <button onclick="addData()">Add</button>
+
+  <table id="dataTable"></table>
+
+  <script src="script.js"></script>
+</body>
+</html>
